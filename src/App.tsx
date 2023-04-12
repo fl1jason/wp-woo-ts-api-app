@@ -1,15 +1,15 @@
 import './App.css';
-import ProductList from './screens/ProductList';
+import BlogList from './screens/BlogList';
 
 import { CartProvider } from './context/CartContext';
 
 const App = () => {
-  
+
   return (
     <div className="App">
       <div className="App">
         <CartProvider>
-        <ProductList />
+          <BlogList />
         </CartProvider>
       </div>
     </div>
